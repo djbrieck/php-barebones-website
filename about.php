@@ -5,27 +5,27 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php
-    //Loading the HTML Head
+  <?php
+    //Build the HTML Head
     require_once (PUBLIC_ROOT_FILEPATH . '/php/contentWriteFunction.php');
     echo buildHead("About Page");
+  ?>
 
-?>
+  <body>
 
-    <body>
+  	<?php
+  	 echo navbar();
+  	?>
 
-	<?php
-	 echo navbar();
-	?>
+    <h1>About</h1>
 
-  <h1>About</h1>
+    <p>The about page contents goes here...</p>
 
-  <p>The about page contents goes here...</p>
+  	<?php
+  	//Show the standardized footer
+  	 echo footer();
+  	 ?>
 
-	<?php
-	//Show the standardized footer
-	 echo footer();
-	 ?>
+   </body>
 
-    </body>
 </html>

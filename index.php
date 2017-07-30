@@ -5,17 +5,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php
-  //Loading the HTML Head
-  require_once (PUBLIC_ROOT_FILEPATH . '/php/contentWriteFunction.php');
-  echo buildHead("Barebones php site");
-?>
+  <?php
+    //Build the HTML Head
+    require_once (PUBLIC_ROOT_FILEPATH . '/php/contentWriteFunction.php');
+    echo buildHead("Barebones php site");
+  ?>
 
   <body>
 
-	<?php
-	 echo navbar();
-	?>
+  	<?php
+  	 echo navbar();
+  	?>
 
   <h1>Welcome to your new phpBareBones site</h1>
 
@@ -30,5 +30,5 @@
 	?>
 
   </body>
-  
+
 </html>
