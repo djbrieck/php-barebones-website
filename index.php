@@ -6,13 +6,12 @@
 <html lang="en">
 
 <?php
-    //Loading the HTML Head
-    require_once (PUBLIC_ROOT_FILEPATH . '/php/contentWriteFunction.php');
-    echo buildHead("Barebones php site");
-
+  //Loading the HTML Head
+  require_once (PUBLIC_ROOT_FILEPATH . '/php/contentWriteFunction.php');
+  echo buildHead("Barebones php site");
 ?>
 
-    <body>
+  <body>
 
 	<?php
 	 echo navbar();
@@ -24,10 +23,12 @@
   <p>It does have headers, footers and navigation links.</p>
   <p>It has the basics to get started.</p>
 
+
 	<?php
 	//Show the standardized footer
 	 echo footer();
-	 ?>
+	?>
 
-    </body>
+  </body>
+  
 </html>
