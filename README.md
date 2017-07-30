@@ -1,4 +1,4 @@
-# Barebones php site
+# Barebones php website
 
 1. Install it on the server or in an local environment where php and apache are configured, I recommend [MAMP](https://www.mamp.info) or [XAMPP](https://www.apachefriends.org/index.html) to get started quickly.
 
